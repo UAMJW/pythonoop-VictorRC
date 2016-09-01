@@ -1,8 +1,12 @@
 class Celular:
-   Tamaño=15
+   Tamano=15
    Color=""
    Wifi=True
    Touch=False
+   
+    def _init_(self,Tamano,Color):
+   		self.Tamano=Tamano
+   		self.Color=Color
    
    def TipoColor(self):
    		print ("Verde")
@@ -10,4 +14,4 @@ class Celular:
 Sony=Celular()
 Sony.TipoColor()
 Sony.Tamaño=20
-print (Sony.Tamaño)
+print (Sony.Tamano)
